@@ -1,0 +1,96 @@
+{
+    "code":200,
+    "msg":"成功",
+	"data":[
+        {
+            "stuID":1,
+            "h1":"jQuery垂直滚动插件vTicker演示",
+            "img":"image/20180520_15267919815439.jpg",
+            "title":"下拉框美化插件经常见到，而单选框/复选框美化插件就比较少见到了，今天就来介绍一款—— Labelau"
+        },
+        {
+            "stuID":2,
+            "h1":"scrollReveal.js – 页面滚动显示动画JS",
+            "img":"image/20180520_15267928226928.jpg",
+            "title":"简介vTicker 是一款非常小巧的 jQuery 垂直滚动插件，压缩后只有 2KB。vTicker"
+        },
+        {
+            "stuID":3,
+            "h1":"jQThumb – jQuery缩略图插件",
+            "img":"image/20180520_15267919815439.jpg",
+            "title":"简介jQuery.eraser 是一个基于 jQuery 的插件，它的效果类似于橡皮擦，按住鼠标不放"
+        },
+        {
+            "stuID":4,
+            "h1":"jquery-rotate.js制作红包大放送抽奖效果",
+            "img":"image/20180520_15267895472377.png",
+            "title":"记住：人生，越努力越幸运！自己的人生也会因自己而精彩，努力吧，朋友们，未来因自己而精彩"
+        },
+        {
+            "stuID":5,
+            "h1":"Select-or-Die – jQuery下拉框美化插件",
+            "img":"image/20180520_15267881932681.jpg",
+            "title":"简介Covering-Bad 是一个基于 jQuery 的插件，它能够创建一个可以拉动大小的元素，覆"
+        },
+        {
+        	"stuID":6,
+        	"h1":"skippr – 更轻更快的jQuery幻灯片插件",
+        	"img":"image/20180520_15267874045197.jpg",
+        	"title":"简介twentytwenty 和 Covering-Bad 一样，也是一款滑动对比插件，它也支持水平"
+        },
+        {
+        	"stuID":7,
+        	"h1":"Owl Carousel制作世界杯时间轴效果",
+        	"img":"image/20180520_15267862616839.jpg",
+        	"title":"简介Owl Carousel 是一个强大、实用但小巧的 jQuery 幻灯片插件，它具有一下特点：·"
+        },
+        {
+        	"stuID":8,
+        	"h1":"jQuery幻灯片插件Flickerplate",
+        	"img":"image/20180520_15267843339400.jpg",
+        	"title":"hotopile JS 是模拟照片散布堆叠在一起的 jQuery 图片插件，它能够很的制作照片墙效果"
+        },
+        {
+        	"stuID":9,
+        	"h1":"hotopile JS–jQuery照片堆叠照片墙效果插件",
+        	"img":"image/20180520_15267834156694.jpg",
+        	"title":"简介Flickerplate 是一个基于 jQuery 的幻灯片插件，压缩后仅 6KB。它支持左右箭"
+        },
+        {
+        	"stuID":10,
+        	"h1":"强大实用的jQuery幻灯片插件Owl Carousel",
+        	"img":"image/20180520_15267830774614.jpg",
+        	"title":"简介2014巴西世界杯正在如火如荼的进行中，作为球迷们，你们对世界杯的了解有多少呢？如果了解不多的话"
+        },
+        {
+        	"stuID":11,
+        	"h1":"jQuery图片滑动对比插件twentytwenty",
+        	"img":"image/20180520_15267813003536.jpg",
+        	"title":"skippr 是一个基于 jQuery 的幻灯片插件，官方的口号是更轻、更快。"
+        },
+        {
+        	"stuID":12,
+        	"h1":"jQuery覆盖对比插件Covering-Bad",
+        	"img":"image/20180520_15267803352436.jpg",
+        	"title":"简介scrollReveal.js 是一款页面滚动显示动画的 JavaScript，能让页面更加有趣"
+        },
+        {
+        	"stuID":13,
+        	"h1":"jQuery.eraser–jQuery橡皮擦插件",
+        	"img":"image/20180520_15267798112976.png",
+        	"title":"简介为一堆不同尺寸的图片创建相同尺寸的缩略图可不是件容易的事，除非有一个强大的后台程序或靠谱的软件，"
+        },
+        {
+        	"stuID":14,
+        	"h1":"jQuery垂直滚动插件vTicker演示",
+        	"img":"image/20180520_15267792844150.png",
+        	"title":"简介现在抽奖效果在网页上已经非常常见了，以前多是 Flash 实现，但现在越来越多的使用 JavaS"
+        },
+        {
+        	"stuID":15,
+        	"h1":"Labelauty – jQuery单选框/复选框美化插件",
+        	"img":"image/20180520_15267789134082.png",
+        	"title":"简介表单的一些元素是很难或不能设置样式的，如单下拉框（select）、选框（radio）和复选框（c"
+        }
+    ]
+}

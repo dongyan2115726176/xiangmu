@@ -1,0 +1,96 @@
+.list h1 a{
+	color: #337ab7;
+    font-size: 23px;
+    font-family: '微软雅黑';
+}
+.list img{
+    display: block;
+    margin-right: auto;
+    margin-left: 12%;
+    width: 63%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.button{
+    width: 63%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.button button{
+    width: 33%;
+    display: inline-block;
+    padding: 2%;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #5cb85c;
+    margin-right: 5%;	
+}
+.intro{
+    font-size: 30px;
+    margin-top: 20px;
+	margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+h4{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.liu{
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.nicheng{
+	width: 100%;
+	float: left;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.nicheng p{
+	color: #a94442;
+	margin: 0 0 10px;
+}
+.input-group{
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+form div{
+	margin-bottom: 2%;
+}
+#nickname{
+	height: 32px;
+    width: 14rem;
+}
+textarea{
+	width: 23rem;
+    height: 8rem;
+}
+#ti{
+    width: 7rem;
+    height: 2rem;
+    background: lightskyblue;
+}
+.main{
+	height: auto!important;
+}

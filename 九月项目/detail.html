@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>杜美瑶个人博客</title>
+	<link rel="shortcut icon" type="image/x-icon" href="image/user.ico">
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="css/jQuery.css"/>
+	<link rel="stylesheet" type="text/css" href="css/detail.css"/>
+
+</head>
+<body>
+	<div class="header">
+		<div class="header_inner">
+			<div class="nav">
+				<ul>
+					<li><a href="index.html" class="cur">首页</a></li>
+					<li><a href="">PHP笔记</a></li>
+					<li><a href="javascript:;">前端技术</a></li>
+					<li><a href="">服务器</a></li>
+					<li><a href="">数据库</a></li>
+					<li><a href="">phython</a></li>
+					<li><a href="jquery插件.html">jQuery插件</a></li>
+					<li><a href="http://www.shuchengxian.com/Jquery.html">jQuery手册</a></li>
+					<li><a href="friendship.html">友情链接</a></li>
+				</ul>
+			</div>
+			<div class="form">
+				<form action="" method="post">
+					<input type="text" placeholder="搜一搜 才知道..." name="keyword" id="keyword"/>
+					<button id="go" type="button">Go!</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="main">
+		<div class="main_inner">
+			<div class="main_left">
+				<div class="carousel">
+					<ol class="ol">
+						<li class="active"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item">
+							<img src="image/1.jpg" alt="" />
+							<div class='carousel-caption'></div>
+							<div class="control">
+								<a href="javascript:;" style="left: 0;">
+									<span class="btn-left"><</span>
+								</a>
+								<a href="javascript:;" style="right: 0;">
+									<span class='btn-right'>></span>
+								</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="row_top">
+								<div class="list">
+									
+								</div>
+							</div>
+						</div>
+						<h4>我要评论</h4>
+						<hr /> 
+						<div class="liu">
+							<form>
+								<div class="nicheng">
+									<p>站长昵称：(*)</p>
+								</div>
+								<div class="input-group">
+									昵称：<input type="text" placeholder="1-20字符之间" id="nickname"/>
+								</div>
+								<div class="input-group-content">
+									<p>输入内容：</p>
+								</div>
+								<textarea name="" rows="6" cols="" id="info" placeholder="快来吐槽吧..."></textarea>
+								<div class="confirm">
+									<button type="button" id="ti">确定提交</button>
+								</div>
+							</form>
+						</div>
+						<hr />
+						<h4>评论列表</h4>
+						<hr />
+						<div class="comment-list">
+							<ul></ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main_right">
+				<p><img src="image/user.jpg" alt="" /></p>
+				<h4 class="username">杜美瑶</h4>
+				<p class="text-center">女，程序猿一枚</p>
+				<p class="text-center">
+					<button>
+						<span class='iconfont'>&#xe672;</span>
+					</button>
+					<button>
+						<span class='iconfont'>&#xe72b;</span>
+					</button>
+				</p>
+				<p class='geyan'>人生要是没有理想， 那跟一条咸鱼有什么分别。</p>
+				<hr />
+				<h5>关于我</h5>
+				<p>
+					<span class="iconfont">&#xe6a6;</span>
+					<a href="http://www.shuchengxian.com">http://www.shuchengxian.com</a>
+				</p>
+				<p class="text-muted">杜美瑶个人博客是以PHP技术为主的程序员个人博客。博客主要发布php开发中遇到的问题以及解决办法，同时个人博客也分享网站模板素材，jquery插件等方面素材。</p>
+				<hr />
+				<div class="row">
+					<div id="box">
+					    <div id="img_box">
+					        <li class="first"><a href=""><img src="image/1.png" alt=""></a></li>
+					        <li><a href=""><img src="image/2.png" alt=""></a></li>
+					        <li><a href=""><img src="image/3.png" alt=""></a></li>
+					        <li><a href=""><img src="image/5.png" alt=""></a></li>
+					        <li><a href=""><img src="image/6.png" alt=""></a></li>
+					    </div>
+					    <div id="dian_box">
+					        <li class="select">1</li>
+					        <li>2</li>
+					        <li>3</li>
+					        <li>4</li>
+					        <li>5</li>
+					    </div>
+					</div>
+				</div>
+				<div class="row" style="margin-top: 12%;">
+				<div class='border-top'>
+					<h5>随笔分类</h5>
+					<div class="blank"></div>
+					<div class="margin-top"></div>
+					<dl>
+						<dt>
+							<a href="">PHP笔记</a>
+						</dt>
+						<dd>
+							<ul class='article'>
+								<li>
+									<a href="">PHP工具</a>
+									<ul class='article'>
+										<li>
+											<a href="">Phpstorm</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="">PHP框架</a>
+									<ul class='article'>
+										<li><a href="">CodeIgniter</a></li>
+										<li><a href="">zend framework</a></li>
+										<li><a href="">Yii2</a></li>
+										<li><a href="">Thinkphp</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="">数据采集</a>
+									<ul class='article'>
+										<li><a href="">火车头采集器</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="">CMS系统</a>
+									<ul class='article'>
+										<li><a href="">EmpireCMS</a></li>
+										<li><a href="">EcshopCMS</a></li>
+										<li><a href="">DestoonCMS</a></li>
+										<li><a href="">DiscuzCMS</a></li>
+										<li><a href="">DedeCMS</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="">PHP技术</a>
+									<ul class='article'>
+										<li><a href="">Redis</a></li>
+										<li><a href="">Memcached</a></li>
+										<li><a href="">PHP</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="">其他知识</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/template" id="template">
+		<ol>
+			<li><a href="">首页&nbsp;/</a></li>
+			<li><a href="">@h1@</a></li>
+		</ol>
+		<h1><a href="">@h1@</a></h1>
+		<p class='text-muted'>
+			<small>
+			   <span class="iconfont">&#xe662;</span>
+			   <a href="">jQuery插件</a>
+			   <span class="iconfont">&#xe672;</span>
+			   阅读(<em>0</em>) 
+			   <span class="iconfont">&#xe61e;</span>
+			   3个月前 
+			</small>
+		</p>
+		<hr />
+		<img src="@img@" alt="" />
+		<hr />
+		<div class="button">
+			<button>预览</button>
+			<button>下载</button>
+		</div>
+		<hr />
+		<p><h1 class="intro">简介：</h1>@title@</p>
+	</script>
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/huxi.js"></script>
+	<script type="text/javascript">
+		
+			
+
+			function WbFn(){
+				this.init();
+			}
+			WbFn.prototype = {
+				init:function(){
+					new breath($("#box"),$("#img_box li"),$("#dian_box li"),$("#left_btn"),$("#right_btn"));
+					this.tiao();
+					this.Release();
+					this.search();
+				},
+				// 发布微博
+				Release:function(){
+					var self = this;
+					$("#ti").on('click',function(){
+						self.fabu();
+					})
+				},
+				// 打开网页自动查询有无数据并在评论区显示评论
+				search:function(){
+					$.post("http://127.0.0.1/dumeiyao/九月项目/php/search.php",function(data){
+						$('.comment-list ul').html(data);
+						// 添加删除功能
+                            $('.comment-list ul li p a').on('click',function(){
+                                // 以名字作为查找元素进行删除
+                                var username = $(this).parent().siblings().eq(0).html();
+                                console.log(username);
+                                $(this).parent().parent().parent().remove();
+                                $.post("http://127.0.0.1/whb/php/0822/delete.php",({
+                                    "username":username
+                                }),function(data){
+
+                                })
+						})
+					})
+				},
+				fabu:function(){
+					var self = this;
+					var user = $('#nickname').val();
+					var text = $('#info').val();
+//					console.log(user)
+					if (user==""||text==""){
+						alert('不能为空');
+						return;
+					}
+					$.post("http://127.0.0.1/dumeiyao/九月项目/php/login.php",({
+						"user":user,
+						"text":text
+					}),function(data){
+						self.search();
+					})
+				},
+				tiao:function(){
+					var hash = window.location.hash.slice(1);
+					console.log(hash);
+					$.post('http://127.0.0.1/dumeiyao/九月项目/php/xiangqing.php',{hash:hash},function(data){
+						var dataobj = typeof data=='object'?data:eval("("+data+")");
+						var dataArr = dataobj.data;
+						var templateString = $("#template").html();
+						$(".list").html(" ");
+						var DomString = templateFn(templateString,dataArr[0]);
+						$(".list").append(DomString);
+						function templateFn(templateString,data){
+							return templateString.replace(/\@([a-z\w]+)\@/g,function(match,$1,index,string){
+								return data[$1];
+							});
+						}
+				})
+				}
+			};
+			new WbFn();
+	</script>
+</body>
+</html>

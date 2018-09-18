@@ -1,0 +1,38 @@
+.content .img{
+    width: 17.33333333%!important;
+    float: left!important;
+    position: relative!important;
+    min-height: 1px!important;
+    padding-right: 15px!important;
+    padding-left: 15px!important;
+}
+.content .img img{
+	display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+.content_right{
+    width: 66.66666667%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+h4{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.main{
+	height: 1382px!important;
+}
